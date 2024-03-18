@@ -1,0 +1,102 @@
+@media (max-width: 576px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+
+.kutular {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kutu {
+    margin: 10px;
+    width: 170px;
+    height: 70px;
+    border: 1px solid #d7dddb;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #53605e;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kutu>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+
+
+.kutu:hover,
+.logoos:hover {
+    color: #7cb900;
+    border-color: #7cb900;
+}
+
+.logoos:hover .logoos path {
+    mix-blend-mode: multiply;
+    fill: #7cb900;
+}
+
+.kutu1:hover,
+.logoos2:hover {
+    color: red;
+    border-color: red;
+}
+
+.logoos2:hover .logoos2 path {
+    mix-blend-mode: multiply;
+    fill: red;
+}
+
+.kutu2:hover,
+.logoos3:hover {
+    color: blue;
+    border-color: blue;
+}
+
+.logoos3:hover .logoos3 path {
+    mix-blend-mode: multiply;
+    fill: blue;
+}
+
+.kutu3:hover,
+.logoos4:hover {
+    color: skyblue;
+    border-color: skyblue;
+}
+
+.logoos4:hover .logoos4 path {
+    mix-blend-mode: multiply;
+    fill: skyblue;
+}
+
+.kutu4:hover,
+.logoos5:hover {
+    color: orange;
+    border-color: orange;
+}
+
+.logoos5:hover .logoos5 path {
+    mix-blend-mode: multiply;
+    fill: orange;
+}
+
+.kutu5:hover,
+.logoos6:hover {
+    color: limegreen;
+    border-color: limegreen;
+}
+
+.logoos6:hover .logoos6 path {
+    mix-blend-mode: multiply;
+    fill: limegreen;
+}
